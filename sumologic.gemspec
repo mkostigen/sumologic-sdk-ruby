@@ -23,10 +23,9 @@ Gem::Specification.new do |s|
   ]
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ['lib']
-  s.required_ruby_version = '>= 2.0.0'
-  s.add_runtime_dependency 'faraday', '~> 0.9', '>= 0.9'
-  s.add_runtime_dependency 'faraday_middleware', '~> 0', '>= 0'
-  s.add_runtime_dependency 'faraday-cookie_jar', '~> 0', '>= 0'
+  s.add_runtime_dependency 'faraday'
+  s.add_runtime_dependency 'faraday_middleware'
+  s.add_runtime_dependency 'faraday-cookie_jar'
   s.add_runtime_dependency 'multi_json', '~> 1'
   s.add_development_dependency 'bundler', '~> 1'
   s.add_development_dependency 'coveralls', '~> 0'

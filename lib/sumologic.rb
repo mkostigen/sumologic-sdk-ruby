@@ -5,7 +5,7 @@ require 'multi_json'
 
 module SumoLogic
   VERSION = '0.1.0'
-  URL = 'https://api.sumologic.com/api/v1'
+  URL = 'https://api.us2.sumologic.com/api/v1'
 
   class Client
     attr_accessor :http
